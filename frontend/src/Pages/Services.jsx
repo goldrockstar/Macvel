@@ -40,19 +40,21 @@ const Services = () => {
                 <div className='card1-s'>
                      <h4 className='h4tag'>{ServicesData.heading0}</h4>
                      <p className='c-ptag'>{ServicesData.intro1}</p>
-                     <Link to='/Servicesdetails'>View Details</Link>
+                     
+                     <Link to ='/servicedetail'>View Details</Link>
                 </div>
 
                 <div className='card1-s'>
                      <h4 className='h4tag'>{ServicesData.heading1}</h4>
                      <p className='c-ptag'>{ServicesData.describtion}</p>
-                     <Link to='/Servicesdetails'>View Details</Link>
+                     <Link to ='/servicedetail'>View Details</Link>
                 </div>
 
                 <div className='card1-s'>
                      <h4 className='h4tag'>{ServicesData.heading2}</h4>
-                     <p className='c-ptag'>{ServicesData.describtion1}</p>
-                     <Link to='/Servicesdetails'>View Details</Link>
+                     <p className='c-ptag'>{ServicesData.describtion2}</p>
+                     
+                     <Link to ='/servicedetail'>View Details</Link>
                 </div>
             </div>
         </div>
@@ -67,7 +69,7 @@ const Services = () => {
                 <h3 className='shead'>{ServicesData.sdheading1}</h3>
                 <h4 className='ssubhead'>{ServicesData.sdheading01}</h4>
                 <p className='spara'>{ServicesData.sdpara01}</p>
-                <Link to='/Servicesdetails'>View More</Link>
+                <Link to ='/servicedetail'>View More</Link>
                 </div>
             </div>
 
@@ -76,7 +78,8 @@ const Services = () => {
                 <h3 className='shead'>{ServicesData.sdheading2}</h3>
                 <h4 className='ssubhead'>{ServicesData.sdheading02}</h4>
                 <p className='spara'>{ServicesData.sdpara02}</p>
-                <Link to='/Servicesdetails'>View More</Link>
+                <Link to ='/servicedetail'>View More</Link>
+
                 </div>
                 <img src={ServicesData.eaimage} alt='image' ></img>
             </div>
@@ -87,7 +90,8 @@ const Services = () => {
                 <h3 className='shead'>{ServicesData.sdheading3}</h3>
                 <h4 className='ssubhead'>{ServicesData.sdheading03}</h4>
                 <p className='spara'>{ServicesData.sdpara03}</p>
-                <Link to='/Servicesdetails'>View More</Link>
+                <Link to ='/servicedetail'>View More</Link>
+
                 </div>
             </div>
             
@@ -98,7 +102,8 @@ const Services = () => {
                 <p className='spara'>{ServicesData.sdsubpara01}</p>
                 <h4 className='ssubhead'>{ServicesData.sdsubhead1}</h4>
                 <p className='spara'>{ServicesData.sdsubpara02}</p>
-                <Link to='/Servicesdetails'>View More</Link>
+                <Link to ='/servicedetail'>View More</Link>
+
                 </div>
                 <img src={ServicesData.seimage} alt='image' />
             </div>
@@ -109,7 +114,7 @@ const Services = () => {
                 <h3 className='shead'>{ServicesData.sdheading5}</h3>
                 <h4 className='ssubhead'>{ServicesData.sdheading05}</h4>
                 <p className='spara'>{ServicesData.sdpara04}</p>
-                <Link to='/Servicesdetails'>View More</Link>
+                <Link to ='/servicedetail'>View More</Link>
                 </div>
             </div>
 
@@ -118,7 +123,7 @@ const Services = () => {
                 <h3 className='shead'>{ServicesData.sdheading6}</h3>
                 <h4 className='ssubhead'>{ServicesData.sdheading06}</h4>
                 <p className='spara'>{ServicesData.sdpara05}</p>
-                <Link to='/Servicesdetails'>View More</Link>
+                <a href='#'>View More</a>
                 </div>
                 <img src={ServicesData.caimage} alt='image' />
             </div>

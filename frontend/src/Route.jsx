@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'  
 
 
@@ -9,21 +9,23 @@ import Footer from './Components/Footer'
 import About from './Pages/About'
 import Services from './Pages/Services'
 import Contact from './Pages/Contact'
-import ServicesDetails from './Pages/ServicesDetails'
+import Training from './Pages/Training'
+import Servicedetail from './Pages/Servicedetail'
+import RegistrationForm from './Pages/RegistrationForm'
 
 const route = () => {
   return (
     <div>
         <Navbar></Navbar>
-        <BrowserRouter>
         <Routes>
             <Route path='/' element ={<Landing/>}></Route>
             <Route path='/about' element ={<About/>}></Route>
             <Route path='/service' element ={<Services/>}></Route>
             <Route path='/contact' element ={<Contact/>}></Route>
-            <Route path='servicesdetails' element ={<ServicesDetails/>}></Route>
+            <Route path='/trainingprogrames' element ={<Training/>}></Route>
+            <Route path='/servicedetail' element={<Servicedetail/>}></Route>
+            <Route path='/register/' element={<RegistrationForm/>}></Route>
         </Routes>
-         </BrowserRouter>
          <Footer></Footer>
         
 

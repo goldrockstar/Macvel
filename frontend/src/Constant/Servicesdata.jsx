@@ -1,5 +1,5 @@
 export const background = `${process.env.PUBLIC_URL}/assets/services/serv.png`
-export const servicehero = `${process.env.PUBLIC_URL}/assets/services/service1.png`
+export const servicehero =` ${process.env.PUBLIC_URL}/assets/services/service1.png`
 
 export const sdimage = `${process.env.PUBLIC_URL}/assets/services/sdimage.png`
 export const eaimage = `${process.env.PUBLIC_URL}/assets/services/eaimage.png`
@@ -8,12 +8,17 @@ export const seimage = `${process.env.PUBLIC_URL}/assets/services/seimage.png`
 export const wmimage = `${process.env.PUBLIC_URL}/assets/services/wmimage.png`
 export const caimage = `${process.env.PUBLIC_URL}/assets/services/caimage.png`
 
+export const blue = `${process.env.PUBLIC_URL}/assets/services/blue.jpg`
+
+
+export const sdback1 = `${process.env.PUBLIC_URL}/assets/services/backgroun-sd.jpeg`
+
+
 export const contactimg = `${process.env.PUBLIC_URL}/assets/services/contact.png`
 export const shapes = `${process.env.PUBLIC_URL}/assets/services/shapes.png`
 
-export const servicesdetailshero = `${process.env.PUBLIC_URL}/assets/services/servicehero.jpg`
-
-
+export const servicesdetailshero = `${process.env.PUBLIC_URL}/assets/services/cheerful.png`
+export const last=`${process.env.PUBLIC_URL}/assets/services/last.png`
 
 
 
@@ -47,7 +52,7 @@ export const ServicesData = {
     wdlist2 : "Progressive Web Apps(PWAs)",
     wdlist3 : "Content management system(CMS)",
 
-    common : "⚙️ Technologies Used",
+    common : "⚙️ Technologices Used",
     
     content0 : "Frontend : ",
     content1 : "Backend : ",
@@ -59,7 +64,7 @@ export const ServicesData = {
     details2 : "MongoDB",
     details3 : "Netlify",
     
-    common1 : " 🔄 Process Overview",
+    common1 : "🔄 Process Overview",
 
     over0 : "Discovery & Planing : ",
     over1 : "Design & Prototyping : ",
@@ -87,9 +92,9 @@ export const ServicesData = {
     
     // Technologices Used
 
-    macontent : "Cross-Platform: ",
-    macontent1 : "Native Development: ",
-    macontent2 : "Backend: ",
+    macontent : "Cross-Platform:",
+    macontent1 : "Native Development",
+    macontent2 : "Backend",
     
     madetail : "React Native, Flutter",
     madetail1 : "Swift (iOS), Kotlin (Android)",
@@ -111,44 +116,44 @@ export const ServicesData = {
 
     // Custom Solution
 
-    heading2 : "Custom Solution",
+   heading2 : "Custom Solution",
 
-    describtion1 : "Whether you're launching a startup or transforming your enterprise workflow, our custom solutions are crafted to align with your business needs, technology stack, and growth plans.",
+   describtion1 : "Whether you're launching a startup or transforming your enterprise workflow, our custom solutions are crafted to align with your business needs, technology stack, and growth plans.",
+   describtion2:"We provide tailored software solutions designed to meet specific business needs and we develop scalable and efficient solutions.",
+   // web solution
 
-    // web solution
+   wbscontent : "Responsive Website Design & Development",
+   wbscontent1 : "Role-based Admin Panels & Dashboards",
+   wbscontent2 : "Progressive Web Apps (PWAs)",
+   wbscontent3 : "Custom CMS & CRM Integration",
 
-    wbscontent : "Responsive Website Design & Development",
-    wbscontent1 : "Role-based Admin Panels & Dashboards",
-    wbscontent2 : "Progressive Web Apps (PWAs)",
-    wbscontent3 : "Custom CMS & CRM Integration",
+   // technologices used
 
-    // technologices used
+   csdcontent : "Frontend : ",
+   csdcontent1 : "Backend : ",
+   csdcontent2 : "Database : ",
+   csdcontent3 : "Hosting & Deployment : ",
 
-    csdcontent : "Frontend : ",
-    csdcontent1 : "Backend : ",
-    csdcontent2 : "Database : ",
-    csdcontent3 : "Hosting & Deployment : ",
+   csddetail : "React.js / TailwindCSS / Bootstrap / Material UI / Typescript / JavaScript",
+   csddetail1 : "Node.Js, Express",
+   csddetail2 : "MongoDB",
+   csddetail3 : "Netlify",
 
-    csddetail : "React.js / TailwindCSS / Bootstrap / Material UI / Typescript / JavaScript",
-    csddetail1 : "Node.Js, Express",
-    csddetail2 : "MongoDB",
-    csddetail3 : "Netlify",
+   // process overview
 
-    // process overview
+   csdover : "Discovery & Planing : ",
+   csdover1 : "Design & Prototyping : ",
+   csdover2 : "Development : ",
+   csdover3 : "Testing & QA : ",
+   csdover4 : "Deployment & Maintenance : ",
 
-    csdover : "Discovery & Planing : ",
-    csdover1 : "Design & Prototyping : ",
-    csdover2 : "Development : ",
-    csdover3 : "Testing & QA : ",
-    csdover4 : "Deployment & Maintenance : ",
+   csdoverdetail : "Understanding your business goals & user expectations ",
+   csdoverdetail1 : "Wireframing, feature roadmap, tech stack selection",
+   csdoverdetail2 : "Agile sprints with weekly updates",
+   csdoverdetail3 : "QA, performance, and security testing",
+   csdoverdetail4 : "Launch on preferred hosting with monitoring & ngoing maintenance & feature improvements",
 
-    csdoverdetail : "Understanding your business goals & user expectations ",
-    csdoverdetail1 : "Wireframing, feature roadmap, tech stack selection",
-    csdoverdetail2 : "Agile sprints with weekly updates",
-    csdoverdetail3 : "QA, performance, and security testing",
-    csdoverdetail4 : "Launch on preferred hosting with monitoring & ngoing maintenance & feature improvements",
-
-
+processoverview : "We build powerful, scalable, and secure web applications tailored to your industry. Whether it’s eCommerce, dashboards, booking platforms, or admin portals — we deliver with performance in mind." ,
 
 
     // services we provide
@@ -199,10 +204,7 @@ export const ServicesData = {
 
     // services Details
 
-     
-    
-
-    servicesdetailshero : `${process.env.PUBLIC_URL}/assets/services/servicehero.jpg`,
+    servicesdetailshero : `${process.env.PUBLIC_URL}/assets/services/cheerful.png`,
 
     servicesDetails : "Overview of Services Details",
 
@@ -213,46 +215,52 @@ export const ServicesData = {
     servicesDetails5 : " Website Maintenance",
     servicesDetails6 : " Cloud Applications",
 
-    servicedetailhead : "🔹 WEB DEVELOPMENT",
-    servicedetail1 : "🔹 MOBILE APP DEVELOPMENT",
-    servicedetail2 : "🔹 CUSTOM SOLUTION",
+    servicedetailhead : "WEB DEVELOPMENT",
+    servicedetail1 : "MOBILE APP DEVELOPMENT",
+    servicedetail2 : "CUSTOM SOLUTION",
     
     // Technologices Used
 
-    sectionsd : "Frontend: React.js, Angular.js",
-    sectionsd1 : "Backend: Node.js, Express.js",
-    sectionsd2 : "Database: MongoDB, MySQL",
-    sectionsd3 : " Cloud: AWS, Google Cloud",
-    sectionsd4 : "Security: JWT, OAuth2",
+    sectionsd : "Frontend :  React.js, Angular.js",
+    sectionsd1 : "Backend :  Node.js, Express.js",
+    sectionsd2 : "Database :  MongoDB, MySQL",
+    sectionsd3 : " Cloud :  AWS, Google Cloud",
+    sectionsd4 : "Security :  JWT, OAuth2",
 
-    sectionea : "Frontend: React.js, Angular",
-    sectionea1 : "Backend: Node.js",
-    sectionea2 : " Database: Oracle, MySQL, PostgreSQL, SQL Server",
-    sectionea3 : "Security: SAML, OAuth2, Role-Based Access Control (RBAC)",
-    sectionea4 : "DevOps: Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions)",
+    sectionea : "Frontend :  React.js, Angular",
+    sectionea1 : "Backend :  Node.js",
+    sectionea2 : " Database :  Oracle, MySQL, PostgreSQL, SQL Server",
+    sectionea3 : "Security :  SAML, OAuth2, Role-Based Access Control (RBAC)",
+    sectionea4 : "DevOps :  Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions)",
 
-    sectionda : "Languages: C#, Java, Python, Electron.js",
-    sectionda1 : "Frameworks: WPF (Windows), Swing (Java), PyQt (Python)",
-    sectionda2 : "Database: SQLite, PostgreSQL, MySQL",
-    sectionda3 : "Security: Data Encryption, SSL/TLS",
+    sectionda : "Languages :  C#, Java, Python, Electron.js",
+    sectionda1 : "Frameworks :  WPF (Windows), Swing (Java), PyQt (Python)",
+    sectionda2 : "Database :  SQLite, PostgreSQL, MySQL",
+    sectionda3 : "Security :  Data Encryption, SSL/TLS",
 
-    sectionseo : "SEO Tools: Google Analytics, Ahrefs, SEMrush, Moz",
-    sectionseo1 : "Marketing Platforms: Google Ads, Facebook Ads, LinkedIn Ads",
-    sectionseo2 : "Content Management: WordPress, Shopify, HubSpot",
-    sectionseo3 : "Email Marketing: Mailchimp, SendGrid",
+    sectionseo : "SEO Tools :  Google Analytics, Ahrefs, SEMrush, Moz",
+    sectionseo1 : "Marketing Platforms :  Google Ads, Facebook Ads, LinkedIn Ads",
+    sectionseo2 : "Content Management :  WordPress, Shopify, HubSpot",
+    sectionseo3 : "Email Marketing :  Mailchimp, SendGrid",
 
-    sectionwm : " CMS & Frameworks: WordPress, Drupal, Joomla, Custom React/Vue Apps",
-    sectionwm1 : "Security Tools: Cloudflare, SSL/TLS, Firewall Protection",
-    sectionwm2 : "Database: MySQL, PostgreSQL, MongoDB",
-    sectionwm3 : "DevOps: Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions)",
+    sectionwm : " CMS & Frameworks :  WordPress, Drupal, Joomla, Custom React/Vue Apps",
+    sectionwm1 : "Security Tools :  Cloudflare, SSL/TLS, Firewall Protection",
+    sectionwm2 : "Database :  MySQL, PostgreSQL, MongoDB",
+    sectionwm3 : "DevOps :  Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions)",
 
-    sectionca : " Cloud Platforms: AWS, Google Cloud, Microsoft Azure",
-    sectionca1 : " Backend: Node.js (Serverless, Express.js)",
-    sectionca2 : "Database: Firebase, DynamoDB, PostgreSQL, MongoDB",
-    sectionca3 : "Security: Identity & Access Management (IAM), OAuth2, JWT",
-    sectionca4 : "DevOps: Kubernetes, Docker, Terraform",
+    sectionca : " Cloud Platforms : AWS, Google Cloud, Microsoft Azure",
+    sectionca1 : " Backend :  Node.js (Serverless, Express.js)",
+    sectionca2 : "Database :  Firebase, DynamoDB, PostgreSQL, MongoDB",
+    sectionca3 : "Security :  Identity & Access Management (IAM), OAuth2, JWT",
+    sectionca4 : "DevOps :  Kubernetes, Docker, Terraform",
 
     // process  overview
+
+    sdback1 :`${process.env.PUBLIC_URL}/assets/services/backgroun-sd.jpeg`,
+    blue : `${process.env.PUBLIC_URL}/assets/services/blue.jpg`,
+    last:`${process.env.PUBLIC_URL}/assets/services/last.png`,
+
+
  
     sdprocess : "Discovery & Planing : Requirement Gathering & Planning ",
     sdprocess1 : "Design & Prototyping : UI/UX Design (Wireframing & Prototyping) ",
@@ -290,9 +298,6 @@ export const ServicesData = {
     caprocess3 : "Testing & QA : Cloud Security & Compliance Checks",
     caprocess4 : "Deployment & Maintenance : Load Testing & Scalability Optimization & Deployment & Ongoing Monitoring",
     
-
-    processoverview : "We build powerful, scalable, and secure web applications tailored to your industry. Whether it’s eCommerce, dashboards, booking platforms, or admin portals — we deliver with performance in mind." ,
-
 
 
 }
